@@ -4,8 +4,9 @@
   "description": "ERP for TP-Witz Administration",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "dev": "nodemon --exec babel-node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "vercel": "node index.js"
   },
   "repository": {
     "type": "git",
