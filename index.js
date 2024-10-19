@@ -18,7 +18,7 @@ mongoose
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
-app.get("/", (req, re) => {
+app.get("/", (req, res) => {
   res.status(200).send("Home");
 });
 
